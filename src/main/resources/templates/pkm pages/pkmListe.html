@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+<header>
+    <a href="">Home</a>
+    <a th:href="@{/MyPokemons}">Mes pokémons</a>
+    <a href="">Boutique</a>
+    <a href="">Mon compte</a>
+    <form th:action="@{/logout}" method="post" class="d-inline">
+        <button type="submit">
+            Log out<img src="/logout-svgrepo-com.svg" width="20" height="20" alt="" style="text-align: ">
+        </button>
+    </form>
+</header>
+<h1>Mes pokémons</h1>
+<p>Déposer vos pokémons pour les faire soigner ou récuperer ceux que vous avez déposez.</p>
+</body>
+</html>
