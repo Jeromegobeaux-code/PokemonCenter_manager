@@ -2,6 +2,7 @@
 Un centre pokemon mais IRL
  
 > **Contexte :** un project en SPRING MVC avec Thymleaf créer pour découvrir les fondamentaux du framework
+> **Staut :** Work In Progress
  
 ## Pitch
  
